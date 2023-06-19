@@ -9,7 +9,7 @@ uint16 track_length            	 # Track length in metres
 uint8 session_type          	 # 0 = unknown, 1 = P1, 2 = P2, 3 = P3, 4 = Short P
 											 # 5 = Q1, 6 = Q2, 7 = Q3, 8 = Short Q, 9 = OSQ
 											 # 10 = R, 11 = R2, 12 = Time Trial
-int8 track_id # -1 for unknown, 0-21 for tracks, see appendix
+int8 track_id -2 # -1 for unknown, 0-21 for tracks, see appendix
 uint8 era # Era, 0 = modern, 1 = classic
 uint16 session_time_left     	 # Time left in session in seconds
 uint16 session_duration      	 # Session duration in seconds
