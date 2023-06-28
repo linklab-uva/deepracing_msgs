@@ -18,4 +18,4 @@ float32 angular_acceleration_x      # Angular acceleration x-component – radia
 float32 angular_acceleration_y      # Angular acceleration y-component
 float32 angular_acceleration_z      # Angular acceleration z-component
 float32 front_wheels_angle          # Current front wheels angle in radians
-float32 wheel_vert_force[4]         # Vertical forces for each wheel
+float32[4] wheel_vert_force         # Vertical forces for each wheel
