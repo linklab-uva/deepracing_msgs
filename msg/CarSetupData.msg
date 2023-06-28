@@ -14,9 +14,9 @@ uint8 front_suspension_height    # Front ride height
 uint8 rear_suspension_height     # Rear ride height
 uint8 brake_pressure            # Brake pressure (percentage)
 uint8 brake_bias                # Brake bias (percentage)
-float32 rear_left_tyre_pressure     # Rear left tyre pressure (PSI)
-float32 rear_right_tyre_pressure    # Rear right tyre pressure (PSI)
-float32 front_left_tyre_pressure    # Front left tyre pressure (PSI)
-float32 front_right_tyre_pressure   # Front right tyre pressure (PSI)
+float32 rear_left_tyre_pressure     # Rear left tyre pressure (psi)
+float32 rear_right_tyre_pressure    # Rear right tyre pressure (psi)
+float32 front_left_tyre_pressure    # Front left tyre pressure (psi)
+float32 front_right_tyre_pressure   # Front right tyre pressure (psi)
 uint8 ballast                  # Ballast
 float32 fuel_load                 # Fuel load
