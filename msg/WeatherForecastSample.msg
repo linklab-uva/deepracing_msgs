@@ -5,4 +5,7 @@ uint8 time_offset                       # Time in minutes the forecast is for
 uint8 weather                           # Weather - 0 = clear, 1 = light cloud, 2 = overcast
                                             # 3 = light rain, 4 = heavy rain, 5 = storm
 int8 track_temperature                  # Track temp. in degrees celsius
+int8 track_temperature_change           #  Track temp. change – 0 = up, 1 = down, 2 = no change
 int8 air_temperature                    # Air temp. in degrees celsius
+int8 air_temperature_change             # Air temp. change – 0 = up, 1 = down, 2 = no change
+uint8 rain_percentage                   # Rain percentage (0-100)
