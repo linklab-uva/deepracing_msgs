@@ -28,7 +28,7 @@ uint8 ego_race_position
 uint8 ego_lap_number
 #Pose information for the ego vehicle. 
 geometry_msgs/Pose ego_pose
-#Linear & Angular velocity information for the ego vehicle (the UDP stream makes the angular component only available for the ego vehicle)
+#Linear velocity information for the ego vehicle (the UDP stream makes the angular component only available for the ego vehicle on a separate topic)
 geometry_msgs/Twist ego_velocity
 #Linear projection distance along the centerline of the track for the ego vehicle, negative implies behind starting line, positive implies forward past the starting line
 float64 ego_track_progress
