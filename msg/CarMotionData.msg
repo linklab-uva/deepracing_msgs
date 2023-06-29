@@ -1,7 +1,7 @@
 geometry_msgs/PointStamped world_position
 geometry_msgs/Vector3Stamped world_velocity
 geometry_msgs/Vector3Stamped world_forward_dir
-geometry_msgs/Vector3Stamped  world_right_dir
+geometry_msgs/Vector3Stamped  world_left_dir
 geometry_msgs/Vector3Stamped  world_up_dir
 float32 g_force_lateral# Lateral G-force component
 float32 g_force_longitudinal# Longitudinal G-force component
