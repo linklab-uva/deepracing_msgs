@@ -7,7 +7,7 @@ float32[4] wheel_slip_ratio         # Slip ratio for each wheel
 float32[4] wheel_slip_angle         # Slip angles for each wheel
 float32[4] wheel_lat_force          # Lateral forces for each wheel
 float32[4] wheel_long_force         # Longitudinal forces for each wheel
-float32 height_of_above_ground    # Height of centre of gravity above ground    
+float32 height_of_cg_above_ground    # Height of centre of gravity above ground    
 geometry_msgs/Vector3 local_velocity # Velocity in local space
 geometry_msgs/Vector3 angular_velocity  #angular velocity – radians/s
 geometry_msgs/Vector3 angular_acceleration  #angular acceleration – radians/s/s
