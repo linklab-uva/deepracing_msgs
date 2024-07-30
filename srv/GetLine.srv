@@ -1,0 +1,9 @@
+std_msgs/String key
+---
+sensor_msgs/PointCloud2 line
+int32 return_code 4
+
+int32 SUCCESS=1
+int32 KEY_NOT_FOUND=2
+int32 TRACKMAP_NOT_INITIALIZED=3
+int32 UNKNOWN=4
