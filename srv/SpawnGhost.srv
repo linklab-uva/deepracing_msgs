@@ -1,0 +1,8 @@
+float64 raceline_tstart
+float64 frequency
+---
+int32 return_code 3
+string message
+int32 SUCCESS=1
+int32 RACELINE_NOT_INITIALIZED=2
+int32 UNKNOWN=3
