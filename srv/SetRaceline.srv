@@ -1,6 +1,6 @@
 string filename
 string frame_id
-nav_msgs/Path new_raceline
+sensor_msgs/PointCloud2 new_raceline
 ---
 string message
 int16 error_code
